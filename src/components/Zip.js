@@ -9,7 +9,7 @@ function Zip(props) {
         const cityNamePattern = /^\w*$/;
         const valid = cityNamePattern.test(event.target.value);
         if (!valid) {
-            setValidationError('* should be a city name');
+            setValidationError('* should be a New Zealand city name');
             props.clearResponse();
         } else {
             setValidationError('');
