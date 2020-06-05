@@ -10,7 +10,7 @@ function App() {
       <AppHeader />
       <AppContainer />
       
-       <div id="map"></div>
+  /*     <div id="map"></div>
     <script>
 // Initialize and add the map
 function initMap() {
@@ -28,9 +28,9 @@ function initMap() {
     * The key parameter will contain your own API key (which is not needed for this tutorial)
     * The callback parameter executes the initMap() function
     */
-    <script async defer
+/*    <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEXgPWV0cWc_MHvNQP31vl9SPml19G1o0&callback=initMap">
-    </script>
+    </script>*/
       
     </div>
   );
